@@ -19,18 +19,18 @@ const rightBottomRadius = document.querySelector('.rightBottomRadius')
 const leftBottomRadius = document.querySelector('.leftBottomRadius')
 
 
-// leftRadius.addEventListener('input', () =>{
-//     box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
-// })
-// rightRadius.addEventListener('input', () =>{
-//     box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
-// })
-// rightBottomRadius.addEventListener('input', () =>{
-//     box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
-// })
-// leftBottomRadius.addEventListener('input', () =>{
-//     box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
-// })
+leftRadius.addEventListener('input', () =>{
+    box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
+})
+rightRadius.addEventListener('input', () =>{
+    box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
+})
+rightBottomRadius.addEventListener('input', () =>{
+    box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
+})
+leftBottomRadius.addEventListener('input', () =>{
+    box.style.borderRadius = `${leftRadius.value}% ${rightRadius.value}% ${rightBottomRadius.value}% ${leftBottomRadius.value}%`
+})
 leftRadius.addEventListener('input',radiusGenerator)
 rightRadius.addEventListener('input',radiusGenerator)
 rightBottomRadius.addEventListener('input',radiusGenerator)
